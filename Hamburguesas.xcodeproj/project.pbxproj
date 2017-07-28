@@ -15,6 +15,8 @@
 		BF7724341F2AE5E600B8DF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7724321F2AE5E600B8DF1B /* LaunchScreen.storyboard */; };
 		BF77243F1F2AE5E700B8DF1B /* HamburguesasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77243E1F2AE5E700B8DF1B /* HamburguesasTests.swift */; };
 		BF77244A1F2AE5E700B8DF1B /* HamburguesasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7724491F2AE5E700B8DF1B /* HamburguesasUITests.swift */; };
+		BF7724581F2AE6A100B8DF1B /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7724571F2AE6A100B8DF1B /* Datos.swift */; };
+		BF77245A1F2AEB8A00B8DF1B /* Colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7724591F2AEB8A00B8DF1B /* Colores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BF7724451F2AE5E700B8DF1B /* HamburguesasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguesasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7724491F2AE5E700B8DF1B /* HamburguesasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguesasUITests.swift; sourceTree = "<group>"; };
 		BF77244B1F2AE5E700B8DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7724571F2AE6A100B8DF1B /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		BF7724591F2AEB8A00B8DF1B /* Colores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colores.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				BF7724321F2AE5E600B8DF1B /* LaunchScreen.storyboard */,
 				BF7724351F2AE5E600B8DF1B /* Info.plist */,
 				BF77242D1F2AE5E600B8DF1B /* Hamburguesas.xcdatamodeld */,
+				BF7724571F2AE6A100B8DF1B /* Datos.swift */,
+				BF7724591F2AEB8A00B8DF1B /* Colores.swift */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF77245A1F2AEB8A00B8DF1B /* Colores.swift in Sources */,
 				BF7724291F2AE5E600B8DF1B /* ViewController.swift in Sources */,
+				BF7724581F2AE6A100B8DF1B /* Datos.swift in Sources */,
 				BF7724271F2AE5E600B8DF1B /* AppDelegate.swift in Sources */,
 				BF77242F1F2AE5E600B8DF1B /* Hamburguesas.xcdatamodeld in Sources */,
 			);
